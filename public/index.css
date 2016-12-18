@@ -31,6 +31,8 @@ body {
 .wat { background-image: url('wat.jpg'); }
 .mono { background-image: url('mono.png'); }
 .bread { background-image: url('bread.jpg'); }
+.pout { background-image: url('pout.jpg'); }
+.yeah { background-image: url('yeah.jpg'); }
 
 .wisdom, .mark {
   flex: 1;
