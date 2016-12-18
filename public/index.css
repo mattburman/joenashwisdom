@@ -24,9 +24,13 @@ body {
   overflow: hidden;
   padding: 20px;
 
-  background: url('nash.jpg') top center no-repeat;
+  background: top center no-repeat;
   background-size: contain;
 }
+
+.wat { background-image: url('wat.jpg'); }
+.mono { background-image: url('mono.png'); }
+.bread { background-image: url('bread.jpg'); }
 
 .wisdom {
   flex: 1;
