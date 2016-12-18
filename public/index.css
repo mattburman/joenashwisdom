@@ -13,8 +13,8 @@ body {
 .nash {
   display: flex;
   flex-flow: row wrap;
-  align-items: flex-end;
   justify-content: center;
+  align-items: flex-end;
 
   margin: 0 auto;
   height: 100vh;
@@ -32,7 +32,7 @@ body {
 .mono { background-image: url('mono.png'); }
 .bread { background-image: url('bread.jpg'); }
 
-.wisdom {
+.wisdom, .mark {
   flex: 1;
 
   text-shadow: -2px -2px 1px #000,
@@ -44,4 +44,7 @@ body {
   color: white;
   font-family: Impact, Arial, sans-serif;
   font-size: 3rem;
+}
+
+.mark {
 }

@@ -3,13 +3,14 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Josh Nash Wisdom <%= @wisdomNumber %></title>
+  <title>Josh Nash Wisdom #<%= @wisdomNumber %></title>
 
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
   <div class="nash <%= ['wat', 'mono', 'bread'][rand(3)] %>">
-      <div class="wisdom"><%= @wisdom %></div>
+
+      <div class="wisdom">#<%= @wisdomNumber %>: <%= @wisdom %></div>
   </div>
 </body>
 </html>
