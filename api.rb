@@ -1,6 +1,6 @@
 require 'twitter_ebooks'
 require 'sinatra'
-:set port, 8183
+set :port, 8183
 
 model = Ebooks::Model.load("model/jna_sh.model")
 
